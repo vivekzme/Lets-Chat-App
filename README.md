@@ -37,3 +37,23 @@ Let's Chat is a real-time chat application built using Node.js and Socket.IO. It
   - New User Notification: Informs all connected users when a new user joins the chat.
   - Message Broadcasting: Broadcasts messages sent by users to all other connected users.
   - User Departure Notification: Alerts other users when someone leaves the chat.
+
+# Process to run the app:
+
+1. Open your terminal or command prompt.
+2. Run the command `nodemon nodeserver/index.js` to start the Node.js server using nodemon.
+3. Install the 'Live Server' extension for Visual Studio Code. The extension ID is ritwickdey.liveserver.
+4. Once the extension is installed, navigate to the index.html file in your project directory.
+5. Right-click anywhere in the index.html file and select "Open with Live Server" from the menu.
+6. A new instance of the application will open in your default web browser.
+
+To open multiple instances of the app:
+
+7. Copy the URL from the address bar of the browser where the application is running.
+8. Open another tab in the same browser or open a different browser (or incognito mode).
+9. Paste the copied URL into the address bar of the new tab or browser.
+10. Press Enter to open another instance of the application in the new tab or browser.
+
+By following these steps, you can run the app locally and have multiple instances running in different tabs, incognito mode, or different browsers.
+
+<img width="1440" alt="Screenshot 2023-06-21 at 1 55 06 PM" src="https://github.com/vivekzme/Lets-Chat-App/assets/98255913/6fdc6fbb-5d18-4836-b46a-82c726566937">
